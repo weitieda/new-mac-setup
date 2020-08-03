@@ -13,5 +13,6 @@ brew cask install adguard
 brew cask install reflector
 brew cask install fantastical
 brew cask install wechat
+brew cask install fork
 
 brew install node
