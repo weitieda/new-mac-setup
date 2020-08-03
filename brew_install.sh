@@ -1,6 +1,5 @@
 brew cask install appcleaner
 brew cask install visual-studio-code
-brew cask install sourcetree
 brew cask install postman
 brew cask install chrome
 brew cask install alfred
