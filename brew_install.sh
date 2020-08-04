@@ -13,6 +13,7 @@ brew cask install reflector
 brew cask install fantastical
 brew cask install wechat
 brew cask install fork
+brew cask install dropbox
 brew install wget
 
 brew install node
