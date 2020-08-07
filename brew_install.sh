@@ -1,3 +1,6 @@
+brew install wget
+brew install node
+
 brew cask install appcleaner
 brew cask install visual-studio-code
 brew cask install postman
@@ -14,6 +17,22 @@ brew cask install fantastical
 brew cask install wechat
 brew cask install fork
 brew cask install dropbox
-brew install wget
+brew cask install cocoapods
+brew cask install jiggler
+brew cask install netnewswire
 
-brew install node
+# Oh My Zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# Karabiner Key Mapping
+cp Karabiner/karabiner.json ~/.config/karabiner
+
+# from App Store
+# Xcode, Xnip, Magnet, OneNote, AutoSwitchInput(自动切换输入法), Vimari, Smart Guide
+
+# Manually Install
+# 1Password 6.8.9, Logi Options
+
+# Xcode Dracula Theme
+wget "https://github.com/dracula/xcode/archive/master.zip" && unzip master.zip && rm master.zip && cp xcode-master/Dracula.xccolortheme ~/Library/Developer/Xcode/UserData/FontAndColorThemes/
+
