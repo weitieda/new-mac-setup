@@ -1,5 +1,11 @@
-# From App Store
-# Xcode, Xnip, Magnet, OneNote, AutoSwitchInput(自动切换输入法), Vimari, Smart Guide
+# From App Store:
+# Xcode
+# Xnip
+# Magnet
+# OneNote
+# AutoSwitchInput(自动切换输入法)
+# Vimari
+# Smart Guide
 
 cd ~/Download
 
