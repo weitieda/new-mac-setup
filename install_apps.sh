@@ -20,6 +20,7 @@ brew cask install dropbox
 brew cask install cocoapods
 brew cask install jiggler
 brew cask install netnewswire
+brew cask install vlc
 
 cd ~/Download
 

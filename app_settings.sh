@@ -1,4 +1,4 @@
-# From App Store:
+# App Store:
 # Xcode
 # Xnip
 # Magnet
@@ -8,6 +8,9 @@
 # Smart Guide
 
 cd ~/Download
+
+# increase KeyRepeat speed, 0 is fastest
+defaults write NSGlobalDomain KeyRepeat -int 1
 
 # Oh My Zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
