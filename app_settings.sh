@@ -6,6 +6,7 @@
 # AutoSwitchInput(自动切换输入法)
 # Vimari
 # Smart Guide
+# Pop Clip
 
 cd ~/Download
 
