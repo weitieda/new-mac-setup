@@ -21,7 +21,7 @@ brew cask install cocoapods
 brew cask install jiggler
 brew cask install netnewswire
 brew cask install vlc
-brew cask install 5kplayer
+brew cask install 4k-video-downloader
 
 cd ~/Download
 
