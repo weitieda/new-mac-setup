@@ -22,6 +22,8 @@ brew cask install jiggler
 brew cask install netnewswire
 brew cask install vlc
 brew cask install 4k-video-downloader
+brew cask install intellij-idea-ce
+brew cask install zoomus
 
 cd ~/Download
 
