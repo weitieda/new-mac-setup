@@ -24,6 +24,7 @@ brew cask install vlc
 brew cask install 4k-video-downloader
 brew cask install intellij-idea-ce
 brew cask install zoomus
+brew cask install java
 
 cd ~/Download
 
