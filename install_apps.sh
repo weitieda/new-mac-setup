@@ -25,6 +25,7 @@ brew cask install 4k-video-downloader
 brew cask install intellij-idea-ce
 brew cask install zoomus
 brew cask install java
+brew cask install proxyman
 
 cd ~/Download
 
