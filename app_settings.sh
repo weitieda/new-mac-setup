@@ -13,10 +13,6 @@ cd ~/Download
 # increase KeyRepeat speed, 0 is fastest
 defaults write NSGlobalDomain KeyRepeat -int 1
 
-# install xcode downloader
-curl -s https://raw.githubusercontent.com/vineetchoudhary/Downloader-for-Apple-Developers/master/install.sh | bash
-
-
 # Oh My Zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
