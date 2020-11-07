@@ -16,6 +16,14 @@ defaults write NSGlobalDomain KeyRepeat -int 1
 # Oh My Zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+# On My Zsh Setting
+## add syntax highlighting
+brew install zsh-syntax-highlighting
+echo "source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
+
+## Agnoster theme: only show last dir name
+mv Terminal/agonster.zsh-theme ~/.oh-my-zsh/themes/
+
 # Karabiner Key Mapping
 cp Karabiner/karabiner.json ~/.config/karabiner
 
