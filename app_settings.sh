@@ -23,7 +23,8 @@ echo "source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 ## install powerline
 brew install romkatv/powerlevel10k/powerlevel10k
 echo 'source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme' >>! ~/.zshrc
-cp ./Terminal/.p10k.zsh ~
+cp Terminal/.zshr ~
+cp Terminal/.p10k.zsh ~
 
 # Karabiner Key Mapping
 cp Karabiner/karabiner.json ~/.config/karabiner
