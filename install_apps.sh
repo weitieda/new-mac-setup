@@ -29,6 +29,9 @@ brew cask install proxyman
 brew cask install notion
 brew cask install pycharm-ce
 
+brew tap homebrew/cask-fonts
+brew cask install font-menlo-for-powerline
+
 cd ~/Download
 
 # 1Password 6.8.9
