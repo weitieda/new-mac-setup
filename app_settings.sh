@@ -21,13 +21,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 brew install zsh-syntax-highlighting
 echo "source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
 ## install powerline
-git clone https://github.com/powerline/fonts.git --depth=1
-cd fonts
-./install.sh
-cd ..
-rm -rf fonts
-## Agnoster theme: only show last dir name
-cp Terminal/agonster.zsh-theme ~/.oh-my-zsh/themes/
+brew install romkatv/powerlevel10k/powerlevel10k
+echo 'source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme' >>! ~/.zshrc
+cp ./Terminal/.p10k.zsh ~
 
 # Karabiner Key Mapping
 cp Karabiner/karabiner.json ~/.config/karabiner
