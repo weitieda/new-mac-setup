@@ -37,5 +37,5 @@ wget "https://c.1password.com/dist/1P/mac4/1Password-6.8.9.pkg"
 # Logi Options
 wget "https://download01.logi.com/web/ftp/pub/techsupport/options/Options_8.20.233.zip" -O logi.zip && unzip logi.zip && rm logi.zip
 
-# install xcode downloader
+# install Xcode downloader
 curl -s https://raw.githubusercontent.com/vineetchoudhary/Downloader-for-Apple-Developers/master/install.sh | bash
