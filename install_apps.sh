@@ -3,7 +3,7 @@ brew install node
 
 brew cask install appcleaner
 brew cask install visual-studio-code
-brew cask install postman
+brew cask install insomnia
 brew cask install chrome
 brew cask install alfred
 brew cask install bartender
@@ -26,6 +26,8 @@ brew cask install intellij-idea-ce
 brew cask install zoomus
 brew cask install java
 brew cask install proxyman
+brew cask install notion
+brew cask install pycharm-ce
 
 cd ~/Download
 
@@ -34,3 +36,6 @@ wget "https://c.1password.com/dist/1P/mac4/1Password-6.8.9.pkg"
 
 # Logi Options
 wget "https://download01.logi.com/web/ftp/pub/techsupport/options/Options_8.20.233.zip" -O logi.zip && unzip logi.zip && rm logi.zip
+
+# install xcode downloader
+curl -s https://raw.githubusercontent.com/vineetchoudhary/Downloader-for-Apple-Developers/master/install.sh | bash

@@ -13,23 +13,25 @@ cd ~/Download
 # increase KeyRepeat speed, 0 is fastest
 defaults write NSGlobalDomain KeyRepeat -int 1
 
+# install xcode downloader
+curl -s https://raw.githubusercontent.com/vineetchoudhary/Downloader-for-Apple-Developers/master/install.sh | bash
+
+
 # Oh My Zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # On My Zsh Setting
-## add syntax highlighting
+# add syntax highlighting
 brew install zsh-syntax-highlighting
 echo "source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
-
 ## install powerline
 git clone https://github.com/powerline/fonts.git --depth=1
 cd fonts
 ./install.sh
 cd ..
 rm -rf fonts
-
 ## Agnoster theme: only show last dir name
-mv Terminal/agonster.zsh-theme ~/.oh-my-zsh/themes/
+cp Terminal/agonster.zsh-theme ~/.oh-my-zsh/themes/
 
 # Karabiner Key Mapping
 cp Karabiner/karabiner.json ~/.config/karabiner
