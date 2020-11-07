@@ -21,6 +21,13 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 brew install zsh-syntax-highlighting
 echo "source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
 
+## install powerline
+git clone https://github.com/powerline/fonts.git --depth=1
+cd fonts
+./install.sh
+cd ..
+rm -rf fonts
+
 ## Agnoster theme: only show last dir name
 mv Terminal/agonster.zsh-theme ~/.oh-my-zsh/themes/
 
