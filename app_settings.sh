@@ -23,18 +23,16 @@ echo "source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 # install powerline
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
-## Set ZSH_THEME="powerlevel10k/powerlevel10k" in ~/.zshrc.
-## cp Terminal/.p10k.zsh ~/
+# zsh auto suggestion
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+# add to `plugins=(zsh-autosuggestions)`
+
+# Set ZSH_THEME="powerlevel10k/powerlevel10k" in ~/.zshrc.
+
+# cp Terminal/.p10k.zsh ~/
 
 # Karabiner Key Mapping
 cp Karabiner/karabiner.json ~/.config/karabiner
 
 # Xcode Dracula Theme
 wget "https://github.com/dracula/xcode/archive/master.zip" && unzip master.zip && rm master.zip && cp xcode-master/Dracula.xccolortheme ~/Library/Developer/Xcode/UserData/FontAndColorThemes/
-
-# VSCode Dracula Theme, manual select theme required post-install. VSCode -> File -> Preferences -> Color Theme
-# git clone https://github.com/dracula/visual-studio-code.git ~/.vscode/extensions/theme-dracula
-# cd ~/.vscode/extensions/theme-dracula
-# npm install
-# npm run build
-
