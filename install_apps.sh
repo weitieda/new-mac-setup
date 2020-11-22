@@ -9,7 +9,8 @@ brew cask install alfred
 brew cask install bartender
 brew cask install iterm2
 brew cask install discord
-brew cask install openinterminal
+brew cask install openinterminal-lite
+brew cask install openineditor-lite
 brew cask install karabiner-elements
 brew cask install adguard
 brew cask install reflector
