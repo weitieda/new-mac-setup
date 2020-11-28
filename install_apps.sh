@@ -31,6 +31,7 @@ brew cask install notion
 brew cask install pycharm-ce
 brew cask install stats
 brew cask install hiddenbar
+brew cask install coderunner
 
 brew tap homebrew/cask-fonts
 brew cask install font-menlo-for-powerline
