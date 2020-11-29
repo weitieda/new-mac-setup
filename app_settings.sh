@@ -1,12 +1,11 @@
 # App Store:
-# Xcode
 # Xnip
 # Magnet
-# OneNote
 # AutoSwitchInput(自动切换输入法)
 # Vimari
 # Smart Guide
 # Pop Clip
+# 1Password 6.8.9 (Mac App Store purhcase history)
 
 cd ~/Download
 
