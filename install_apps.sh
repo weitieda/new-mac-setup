@@ -3,7 +3,6 @@ brew install node
 
 brew cask install appcleaner
 brew cask install visual-studio-code
-brew cask install insomnia
 brew cask install chrome
 brew cask install alfred
 brew cask install bartender
@@ -32,6 +31,7 @@ brew cask install pycharm-ce
 brew cask install stats
 brew cask install hiddenbar
 brew cask install coderunner
+brew cask install paw
 
 brew tap homebrew/cask-fonts
 brew cask install font-menlo-for-powerline
