@@ -38,7 +38,6 @@ brew cask install font-menlo-for-powerline
 
 cd ~/Download
 
-# 1Password 6.8.9
 wget "https://c.1password.com/dist/1P/mac4/1Password-6.8.9.pkg"
 
 # Logi Options
