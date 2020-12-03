@@ -1,5 +1,7 @@
 brew install wget
 brew install node
+brew install ffmpeg
+brew install youtube-dl
 
 brew cask install appcleaner
 brew cask install visual-studio-code
