@@ -1,6 +1,6 @@
 //___FILEHEADER___
 
-import XCTest
+import Foundation
 
 /*
  
