@@ -1,1 +1,1 @@
-mkdir -p ~/Library/Developer/Xcode/Templates/File\ Templates/Custom
+mkdir -p ~/Library/Developer/Xcode/Templates/File\ Templates/Custom···
