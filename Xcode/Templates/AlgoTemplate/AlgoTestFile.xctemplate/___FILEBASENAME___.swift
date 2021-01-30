@@ -17,4 +17,3 @@ class ___FILEBASENAMEASIDENTIFIER___: XCTestCase {
 
     }
 }
-
