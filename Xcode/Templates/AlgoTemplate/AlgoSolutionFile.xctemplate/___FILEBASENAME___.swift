@@ -9,7 +9,7 @@ import Foundation
  
  */
 
-final class MonotonicArray {
+final class ___FILEBASENAMEASIDENTIFIER___ {
 
     // t: O(), s: O()
     static func solution() {
