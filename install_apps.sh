@@ -5,6 +5,9 @@
 # Oh my zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+sudo gem install cocoapods
+
+brew install swiftlint
 brew install wget
 brew install node
 brew install ffmpeg
@@ -14,6 +17,7 @@ brew install java
 brew install --cask appcleaner
 brew install --cask visual-studio-code
 brew install --cask chrome
+brew install --cask firefox
 brew install --cask alfred
 brew install --cask bartender
 brew install --cask iterm2
