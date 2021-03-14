@@ -19,7 +19,7 @@ sudo defaults write /Library/Preferences/com.apple.SoftwareUpdate AutomaticDownl
 cp Karabiner/karabiner.json ~/.config/karabiner
 
 # Xcode Keybindings
-cp Xcode/tieda_xcode_keybindings.idekeybindings ~/Library/Developer/Xcode/UserData/KeyBindings/
+# cp Xcode/tieda_xcode_keybindings.idekeybindings ~/Library/Developer/Xcode/UserData/KeyBindings/
 
 # Xcode Dracula Theme
 # wget "https://github.com/dracula/xcode/archive/master.zip" && unzip master.zip && rm master.zip && cp xcode-master/Dracula.xccolortheme ~/Library/Developer/Xcode/UserData/FontAndColorThemes/
