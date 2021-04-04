@@ -5,15 +5,12 @@ import XCTest
 
 class ___FILEBASENAMEASIDENTIFIER___: XCTestCase {
 
-    func test1() {
-
-    }
-
-    func test2() {
-
-    }
-
-    func test3() {
-
+    func test() {
+        [
+            (),
+        
+        ].forEach { (input, result) in
+            expect(result, when: ___FILEBASENAMEASIDENTIFIER___.solution(input))
+        }
     }
 }
