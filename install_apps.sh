@@ -17,34 +17,15 @@ brew install java
 brew install --cask appcleaner
 brew install --cask visual-studio-code
 brew install --cask chrome
-brew install --cask firefox
 brew install --cask alfred
-brew install --cask bartender
 brew install --cask iterm2
-brew install --cask discord
 brew install --cask openinterminal-lite
 brew install --cask openineditor-lite
-brew install --cask karabiner-elements
-brew install --cask adguard
-brew install --cask reflector
-brew install --cask fantastical
 brew install --cask wechat
 brew install --cask fork
-brew install --cask dropbox
-brew install --cask cocoapods
-brew install --cask jiggler
-brew install --cask netnewswire
-brew install --cask vlc
-brew install --cask 4k-video-downloader
-brew install --cask intellij-idea-ce
-brew install --cask zoom
 brew install --cask proxyman
 brew install --cask notion
-brew install --cask pycharm-ce
-brew install --cask stats
-brew install --cask hiddenbar
 brew install --cask coderunner
-brew install --cask paw
 
 # On My Zsh Setting
 # Add syntax highlighting
@@ -62,9 +43,6 @@ brew tap homebrew/cask-fonts
 brew cask install font-menlo-for-powerline
 
 cd ~/Download
-
-# 1Password
-wget "https://c.1password.com/dist/1P/mac4/1Password-6.8.9.pkg"
 
 # Logi Options
 wget "https://download01.logi.com/web/ftp/pub/techsupport/options/Options_8.20.233.zip" -O logi.zip && unzip logi.zip && rm logi.zip
