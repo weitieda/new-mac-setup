@@ -1,11 +1,8 @@
-
 # Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Oh my zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
-sudo gem install cocoapods
 
 brew install swiftlint
 brew install wget
@@ -45,7 +42,7 @@ brew cask install font-menlo-for-powerline
 cd ~/Download
 
 # Logi Options
-wget "https://download01.logi.com/web/ftp/pub/techsupport/options/Options_8.20.233.zip" -O logi.zip && unzip logi.zip && rm logi.zip
+wget "https://download01.logi.com/web/ftp/pub/techsupport/optionsplus/logioptionsplus_installer.zip" -O logi.zip && unzip logi.zip && rm logi.zip
 
 # install Xcode downloader
 # curl -s https://raw.githubusercontent.com/vineetchoudhary/Downloader-for-Apple-Developers/master/install.sh | bash
