@@ -9,8 +9,8 @@
 
 cd ~/Download
 
-# Increase KeyRepeat speed, 0 is fastest
-defaults write NSGlobalDomain KeyRepeat -int 1
+defaults write -g InitialKeyRepeat -int 12
+defaults write -g KeyRepeat -int 1
 
 # Turn off macOS update notification
 sudo defaults write /Library/Preferences/com.apple.SoftwareUpdate AutomaticDownload -boolean FALSE
