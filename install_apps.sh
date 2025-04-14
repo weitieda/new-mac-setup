@@ -14,7 +14,7 @@ brew install java
 brew install --cask appcleaner
 brew install --cask visual-studio-code
 brew install --cask chrome
-brew install --cask alfred
+brew install --cask raycast
 brew install --cask iterm2
 brew install --cask openinterminal-lite
 brew install --cask openineditor-lite
